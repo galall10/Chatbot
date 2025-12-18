@@ -223,7 +223,7 @@ All configuration is managed via environment variables (see `.env.example`):
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `GEMINI_API_KEY` | Google Gemini API key | **Required** |
-| `GEMINI_MODEL` | Model name | `gemini-2.0-flash-exp` |
+| `GEMINI_MODEL` | Model name | `gemini-2.5-flash` |
 | `GEMINI_TEMPERATURE` | Sampling temperature | `0.7` |
 | `REDIS_URL` | Redis connection URL | `redis://localhost:6379` |
 | `MAX_HISTORY_TOKENS` | Max tokens in conversation history | `4000` |
